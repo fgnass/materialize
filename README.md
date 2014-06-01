@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/fgnass/materialize.svg?branch=master)](https://travis-ci.org/fgnass/materialize)
+
 ### Tiny utility to turn a list into an object
 
 Example:
