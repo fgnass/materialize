@@ -19,7 +19,7 @@ var fooBar = { foo: 23, bar: 42 };
   [ [nameValue], fooBar ],
   [ [propVal, 'prop', 'val'], fooBar ],
   [ [[]], {} ],
-
+  [ [undefined], {} ]
 ]
 .forEach(function(t) {
   var args = t[0].map(JSON.stringify);
