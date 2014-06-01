@@ -18,6 +18,7 @@ var fooBar = { foo: 23, bar: 42 };
 [
   [ [nameValue], fooBar ],
   [ [propVal, 'prop', 'val'], fooBar ],
+  [ [[]], {} ],
 
 ]
 .forEach(function(t) {
